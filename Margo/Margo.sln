@@ -19,6 +19,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5-Infrastructure", "5-Infra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Margo.Domain", "src\Margo.Domain\Margo.Domain.csproj", "{40C305D6-DFE7-4FAE-AA61-A19535818AA0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Margo.Interface", "src\Margo.Interface\Margo.Interface.csproj", "{8D51D761-1E6E-4A7A-B026-EABAB632FF2F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,12 +31,17 @@ Global
 		{40C305D6-DFE7-4FAE-AA61-A19535818AA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40C305D6-DFE7-4FAE-AA61-A19535818AA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40C305D6-DFE7-4FAE-AA61-A19535818AA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D51D761-1E6E-4A7A-B026-EABAB632FF2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D51D761-1E6E-4A7A-B026-EABAB632FF2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D51D761-1E6E-4A7A-B026-EABAB632FF2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D51D761-1E6E-4A7A-B026-EABAB632FF2F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{40C305D6-DFE7-4FAE-AA61-A19535818AA0} = {AC5FB591-F1B3-4D1A-9C39-C3F9A2F62B2D}
+		{8D51D761-1E6E-4A7A-B026-EABAB632FF2F} = {9DCDAFF5-C525-45EE-8491-0DA3513DC08D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B8A45FE7-419E-4EF5-8232-88B988C3E797}
