@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Presentation", "1-Presentation", "{4128446A-4674-4D39-A71A-759A6B2C13D6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Application", "2-Application", "{06F603B5-AA59-447B-89E3-8B3A3078559C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Domain", "3-Domain", "{AC5FB591-F1B3-4D1A-9C39-C3F9A2F62B2D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-Repository", "4-Repository", "{8FEA8FF9-D7B3-4312-824E-02A1783D68F7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6-Interface", "6-Interface", "{9DCDAFF5-C525-45EE-8491-0DA3513DC08D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7-Tests", "7-Tests", "{F3BA4BF0-D4B5-4739-9A84-A23DFD4F500D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5-Infrastructure", "5-Infrastructure", "{776BEF6D-4418-46F6-852E-159DB7B056BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Margo.Domain", "src\Margo.Domain\Margo.Domain.csproj", "{40C305D6-DFE7-4FAE-AA61-A19535818AA0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40C305D6-DFE7-4FAE-AA61-A19535818AA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40C305D6-DFE7-4FAE-AA61-A19535818AA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40C305D6-DFE7-4FAE-AA61-A19535818AA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40C305D6-DFE7-4FAE-AA61-A19535818AA0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{40C305D6-DFE7-4FAE-AA61-A19535818AA0} = {AC5FB591-F1B3-4D1A-9C39-C3F9A2F62B2D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B8A45FE7-419E-4EF5-8232-88B988C3E797}
+	EndGlobalSection
+EndGlobal
